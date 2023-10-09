@@ -7,14 +7,16 @@ import {Product} from './pages/product'
 import {ProductCard} from './pages/product-card'
 // import {ProductList} from './pages/product-list'
 
+import "./App.css"
+
 
 function App() {
 
   return (
     <>
-    <Link  to="/">Home</Link>
+    {/* <Link  to="/">Home</Link>
     <Link to="/product">Product</Link>
-    <Link target='blank' to="/product-card">ProductCard</Link>
+    <Link target='blank' to="/product-card">ProductCard</Link> */}
 
     <Routes>
     <Route path='/' element={<MainLayout/>}>
