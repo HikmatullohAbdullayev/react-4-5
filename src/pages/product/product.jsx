@@ -1,8 +1,13 @@
 import React from 'react';
+import { Card } from '../home/card';
+import productStyle from './product.module.css'
+import { MainLayout } from '../../layout/main-layout';
 export const  Product = () =>{
     return(
         <>
-            <h1>Product</h1>
+        <div className={productStyle.container}>
+            <Card/>
+        </div>
         </>
     )
 }
