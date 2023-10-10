@@ -14,9 +14,7 @@ function App() {
 
   return (
     <>
-    <Link  to="/">Home</Link>
-    <Link to="/product">Product</Link>
-    <Link target='blank' to="/product-card">ProductCard</Link>
+
 
     <Routes>
     <Route path='/' element={<MainLayout/>}>
