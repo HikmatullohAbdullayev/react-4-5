@@ -24,7 +24,7 @@ export const Home = () => {
 
       <div className={homeStyle.product}>
       <div className={homeStyle.container}>
-      <h2 className={homeStyle.product_title}> nmadur</h2>
+      <h2 className={homeStyle.product_title}> Maxsulotlar</h2>
         <div className={homeStyle.product_box}>
 
             <Card/>

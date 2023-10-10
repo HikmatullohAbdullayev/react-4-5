@@ -26,7 +26,7 @@ export const Card = () => {
     <>
      <div className={cardStyle.products_container}>
      {state.map((item) => (
-        <Link target="blanck" to="product">
+        <Link target="_blank" to="product">
         <div className={cardStyle.product_box}>
           <img className={cardStyle.card_img} src={item.img} />
           <div className={cardStyle.content_box}>

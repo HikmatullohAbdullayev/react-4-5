@@ -58,6 +58,14 @@ background: #FB2E86;
 padding: 16px 40px;
 display: inline-block;
 }
+.product_title{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 26px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 @media screen and (max-width: 850px) {
   
   }
