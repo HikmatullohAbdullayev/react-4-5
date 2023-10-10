@@ -6,6 +6,7 @@ export const  Product = () =>{
     return(
         <>
         <div className={productStyle.container}>
+        <div className={productStyle.box}> <h1>Maxsulotlar</h1></div>
             <Card/>
         </div>
         </>
